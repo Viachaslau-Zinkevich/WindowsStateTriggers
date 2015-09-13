@@ -66,7 +66,7 @@ namespace WindowsStateTriggers
 
 		internal static bool AreValuesEqual(object value1, object value2, bool convertType)
 		{
-			if (value1 == value2)
+			if (Equals(value1, value2))
 			{
 				return true;
 			}
